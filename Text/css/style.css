@@ -1,0 +1,155 @@
+html {
+	background-color: black;
+}
+
+html, body {
+	font-family: 'Exo 2', sans-serif;
+	color: black;
+}
+
+p:hover {
+	color: white
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+
+div {
+	position: absolute;
+}
+
+.education {
+	left: 20px;
+	top: 20px;
+}
+
+.employment {
+	left: 200px;
+	top: 150px;
+}
+
+.permission {
+	left: 600px;
+	top: 230px;
+}
+
+.accompany {
+	left: 600px; 
+	top: 100px;
+}
+
+.western {
+	right: 100px;
+	top: 10px;
+}
+
+.mensclothes {
+	left: 20px;
+	top: 80px;
+}
+
+.makeup {
+	left: 340px;
+	top: 80px;
+}
+
+.perfume {
+	left: 400px;
+	top: 200px;
+}
+
+.laugh {
+	left: 550px;
+	top: 20px;
+}
+
+.photograph {
+	left: 300px;
+	top: 300px;
+}
+
+.nails {
+	left: 800px;
+	top: 400px;
+}
+
+.shoes {
+	left: 400px;
+	top: 700px;
+}
+
+.talk {
+	left: 1000px;
+	top: 800px;
+}
+
+.gather {
+	right: 1000px;
+	top: 400px;
+}
+
+.wash {
+	left: 500px;
+	top: 900px;
+}
+
+.taxi {
+	left: 80px;
+	top: 300px;
+}
+
+.bicycle {
+	left: 200px;
+	top: 800px;
+}
+
+.baths {
+	left: 200px;
+	top: 500px;
+}
+
+.balcony {
+	right: 200px;
+	top: 500px;
+}
+
+.window {
+	left: 80px;
+	top: 600px;
+}
+
+.gratification {
+	right: 30px;
+	top: 290px;
+}
+
+.indulge {
+	left: 1000px;
+	top: 600px;
+}
+
+.suicide {
+	left: 30px;
+	top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
