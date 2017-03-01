@@ -1,225 +1,200 @@
-html {
-	background-color: black;
-}
-
 html, body {
-	font-family: 'helvetica';
-	color: black;
+	background-color: rgb(206, 92, 138);
 }
 
 h1 {
-	font-family: 'helvetica';
-	font-size: 28px;
-	color: white;
+	font-size: 90px;
+	font-family: arial;
 	position: absolute;
-	left: 200px;
+	top: 30%;
+	left: 30%;
+	color: rgb(184, 224, 56);
 }
 
-.subheading {
-	font-family: 'helvetica';
-	font-size: 28px;
-	color: yellow;
+h2 {
+	font-family: helvetica;
 	position: absolute;
-	left: 380px;
-	top: 70px;
+	top: 50%;
+	right: 24%;
 }
 
-
-p:hover {
-	color: white;
+h3 {
+	font-family: helvetica;
+	position: absolute;
+	top: 55%;
+	right: 24%;
 }
 
-a:link {
-	color: black;
-	width: 10vw;
-	height: 10vw;
+.text {
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	font-size: 30px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
 }
 
-a:visited {
-	color: black;
-	width: 10vw;
-	height: 10vw;
+.core {
+	position: absolute;
+	top: 70%;
+	left: 34.7%;
+	font-size: 30px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+}
+
+.maxmin {
+	position: absolute;
+	top: 70%;
+	left: 40%;
+	font-size: 30px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+}
+
+.checkerboard {
+	position: absolute;
+	top: 70%;
+	left: 48.7%;
+	font-size: 30px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+}
+
+.screensaver {
+	position: absolute;
+	top: 70%;
+	left: 63%;
+	font-size: 30px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+}
+
+.pleaserespond {
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	font-size: 30px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+}
+
+.button {
+	position: absolute;
+	top: 80%;
+	left: 45.5%;
+	font-size: 30px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
 }
 
 a:active {
-	color: red;
-	width: 10vw;
-	height: 10vw;
-}
-
-a:hover {
 	color: white;
-	width: 10vw;
-	height: 10vw;
 }
 
+@media screen and (max-width: 912px) {
 
-div {
+	h1 {
+	font-size: 55px;
+	font-family: arial;
 	position: absolute;
+	top: 30%;
+	left: 30%;
+	color: rgb(184, 224, 56);
+	}
+
+	h2 {
+	font-family: helvetica;
+	font-size: 20px;
+	position: absolute;
+	top: 41%;
+	right: 28%;
+	}
+
+	h3 {
+	font-family: helvetica;
+	font-size: 17px;
+	position: absolute;
+	top: 44%;
+	right: 28%;
+	}
+
+	.text {
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	font-size: 25px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+	}
+
+	.core {
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	font-size: 25px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+	}
+
+	.maxmin {
+	position: absolute;
+	top: 60%;
+	left: 40.9%;
+	font-size: 25px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+	}
+
+	.checkerboard {
+	position: absolute;
+	top: 60%;
+	left: 51.2%;
+	font-size: 25px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+	}
+
+	.screensaver {
+	position: absolute;
+	top: 60%;
+	left: 68.6%;
+	font-size: 25px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+	}
+
+	.pleaserespond {
+	position: absolute;
+	top: 67%;
+	left: 30%;
+	font-size: 25px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+	}
+
+	.button {
+	position: absolute;
+	top: 67%;
+	left: 48.7%;
+	font-size: 25px;
+	font-family: helvetica;
+	color: rgb(122, 110, 7);
+	background-color: rgb(184, 224, 56);
+	}
 }
-
-.education {
-	left: 20px;
-	top: 20px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.employment {
-	left: 200px;
-	top: 150px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.permission {
-	left: 600px;
-	top: 230px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.accompany {
-	left: 600px; 
-	top: 100px;
-}
-
-.western {
-	right: 100px;
-	top: 10px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.mensclothes {
-	left: 20px;
-	top: 80px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.makeup {
-	left: 340px;
-	top: 80px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.perfume {
-	left: 400px;
-	top: 200px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.laugh {
-	left: 550px;
-	top: 20px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.photograph {
-	left: 300px;
-	top: 300px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.nails {
-	left: 800px;
-	top: 400px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.shoes {
-	left: 400px;
-	top: 700px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.talk {
-	left: 1000px;
-	top: 800px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.gather {
-	right: 1000px;
-	top: 400px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.wash {
-	left: 500px;
-	top: 900px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.taxi {
-	left: 80px;
-	top: 300px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.bicycle {
-	left: 200px;
-	top: 800px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.baths {
-	left: 200px;
-	top: 500px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.balcony {
-	right: 200px;
-	top: 500px;
-}
-
-.window {
-	left: 80px;
-	top: 600px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.gratification {
-	right: 30px;
-	top: 290px;
-	width: 10vw;
-	height: 10vw;
-}
-
-.indulge {
-	left: 1000px;
-	top: 600px;
-}
-
-.suicide {
-	left: 30px;
-	top: 200px;
-	width: 10vw;
-	height: 10vw;
-}
-
-
-
-
-
-
-
-
-
 
 
