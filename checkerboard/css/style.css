@@ -1,0 +1,65 @@
+
+.square {
+	width: 100px;
+	height: 100px;
+	float: left;
+
+	width: 10vw;
+	height: 10vw;
+}
+
+
+.red {
+	background-color: red;
+}
+
+
+.black {
+	background-color: black;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: blue;
+	border-radius: 50%;
+
+	width: 10vw;
+	height: 10vw;
+}
+
+.circle2 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: yellow;
+	border-radius: 50%;
+
+	width: 10vw;
+	height: 10vw;
+}
+
+.circle3 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: pink;
+	border-radius: 50%;
+
+	width: 10vw;
+	height: 10vw;
+}
+
+.circle:hover {
+	background-color: yellow;
+}
+
+.circle2:hover {
+	background-color: brown;
+}
+
+.circle3:hover {
+	background-color: gray;
+}
+
