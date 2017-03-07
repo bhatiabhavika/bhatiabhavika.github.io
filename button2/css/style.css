@@ -1,0 +1,191 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+}
+
+h1 {
+	position: absolute;
+	left: 15%;
+	bottom: 1%;
+	font-family: 'Rock Salt', cursive;
+	font-size: 60px;
+
+}
+
+h2 {
+	position: fixed;
+	right: 1%;
+	top: 100px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+
+}
+
+#menu {
+	position: fixed;
+	right: 7%;
+	top: 150px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+a:visited {
+	color: black;
+}
+
+#bar {
+  position: fixed;
+  left: 84.5%;
+  top: 7px;
+  line-height: 150px;
+  color: rgb(183, 14, 158);
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+#lip-container {
+	position: relative;
+	width: 80%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.lip-0 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background-image: url("../img/1.png");
+  background-size: contain;
+  background-position: center;
+  float: left;
+  animation: resize;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/* .lip-1 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background-image: url("../img/2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  animation: flipOutY;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+} */
+
+.lip-2 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background-image: url("../img/3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  animation: flipOutY;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/* .lip-3 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background-image: url("../img/4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  animation: flipOutY;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.lip-4 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background-image: url("../img/5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  animation: flipOutY;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.lip-5 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background-image: url("../img/6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  animation: flipOutY;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+*/
+
+.small {
+	width: 10%;
+	height: 10%;
+	background-size: no-contain;
+}
+
+.disappear {
+	display: none;
+  	pointer-events: none;
+}
+
+@keyframes resize {
+	0% {
+		width: 30%;
+		height: 30%;
+	}
+	50% {
+		width: 33%;
+		height: 33%;
+	}
+	100% {
+		width: 30%;
+		height: 30%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
