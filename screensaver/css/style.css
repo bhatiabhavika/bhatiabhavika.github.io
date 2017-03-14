@@ -4,11 +4,12 @@ html, body {
 
 #open {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../open1.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 	animation: fade;
@@ -18,11 +19,12 @@ html, body {
 
 #midway {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../midway1.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 	animation: fade;
@@ -33,11 +35,12 @@ html, body {
 
 #closed {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../closed1.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 	animation: fade;
@@ -49,132 +52,144 @@ html, body {
 
 #eye-0 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../1.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-1 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../2.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-2 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../3.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-3 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px;
 	background-image:url('../4.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-4 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../5.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-5 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../6.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-6 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../7.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-7 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px;
 	background-image:url('../8.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-8 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px;
 	background-image:url('../9.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-9 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px;
 	background-image:url('../10.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-10 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px; 
 	background-image:url('../11.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
 
 #eye-11 {
 	position: fixed;
-	top: 25%;
-	left: 30%;
-	width:600px; 
-	height:300px; 
+	top: 33%;
+	left: 37%;
+	width:350px; 
+	height:175px;
 	background-image:url('../12.jpg');
+	background-size: 100%;
 	margin:0;
 	padding:0;
 }
