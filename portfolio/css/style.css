@@ -1,0 +1,184 @@
+p {
+	font-family: helvetica;
+	width: 40%;
+	text-align: left;
+	position: relative;
+	left: 30%;
+	margin: 5%;
+}
+
+.mainmenu {
+	max-width: 100%;
+	height: auto;
+	left: 20%;
+}
+
+.header {
+	position: fixed;
+	bottom: 10%;
+	left: 5%;
+	font-family: helvetica;
+	font-size: 20px;
+	z-index: 1;
+}
+
+.subheading {
+	position: fixed;
+	bottom: 7%;
+	left: 5%;
+	font-family: helvetica;
+	font-size: 15px;
+	z-index: 1;
+}
+
+.about {
+	position: fixed;
+	bottom: 3%;
+	right: 11%;
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	z-index: 1;
+}
+
+.about:hover {
+	background-color: yellow;
+}
+
+.contact {
+	position: fixed;
+	bottom: 3%;
+	right: 5%;
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	z-index: 1;
+}
+
+.contact:hover {
+	background-color: yellow;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.fineart, .digitalportraits, .publicationdesign, .graphicdesign, .webdesign {
+	font-family: helvetica;
+}
+
+.fineart:hover {
+	font-size: 30px;
+	background-color: yellow;
+}
+
+.digitalportraits:hover {
+	font-size: 30px;
+	background-color: lime;
+}
+
+.publicationdesign:hover {
+	font-size: 30px;
+	background-color: lightblue;
+}
+
+.graphicdesign:hover {
+	font-size: 30px;
+	background-color: orange;
+}
+
+.webdesign:hover {
+	font-size: 30px;
+	background-color: red;
+}
+
+
+img {
+	position: relative;
+	left: 20%;
+	height: auto;
+	padding: 2%;
+	margin-right: 4%;
+}
+
+img:hover {
+	opacity: 0.4;
+}
+
+img:active {
+	opacity: 0.2;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.portrait1 {
+	position: relative;
+	top: 25%;
+	left: 20%;
+	float: left;
+}
+
+div.portrait2 {
+	position: relative;
+	top: 25%;
+	left: 16%;
+	float: left;
+}
+
+div.portrait3 {
+	position: relative;
+	top: 40%;
+	left: 5%;
+}
+
+div.menu {
+	position: fixed;
+	top: 25%;
+	left: 20%;
+}
+
+--
+
+div.wordoftheday {
+	position: relative;
+	top: 90%;
+	left: 5%;
+}
+
+div.screensaver {
+	position: relative;
+	left: 5%;
+}
+
+div.text {
+	position: relative;
+	left: 5%;
+}
+
+--
+
