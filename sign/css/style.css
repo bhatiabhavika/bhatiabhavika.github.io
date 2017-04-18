@@ -1,0 +1,634 @@
+html, body {
+	background-color: rgb(0,0,0);
+	color: white;
+	font-family: helvetica, sans-serif;
+	font-size: 65px;
+	cursor: pointer;
+}
+
+
+#N {
+	position: relative;
+	left: 45%;
+}
+
+#N:hover {
+	color: green;
+	font-size: 100px;
+}
+
+
+#E {
+	position: relative;
+	left: 50%;
+}
+
+#E:hover {
+	color: yellow;
+	font-size: 100px;
+}
+
+#W {
+	position: relative;
+	left: 48%;
+}
+
+#W:hover {
+	color: red;
+	font-size: 100px;
+}
+
+#MU {
+	position: relative;
+	left: 52%;
+}
+
+#MU:hover {
+	color: blue;
+	font-size: 100px;
+}
+
+#SE {
+	position: relative;
+	left: 50%;
+}
+
+#SE:hover {
+	color: orange;
+	font-size: 100px;
+}
+
+#UM {
+	position: relative;
+	left: 48%;
+}
+
+#UM:hover {
+	color: hotpink;
+	font-size: 100px;
+}
+
+#Ntext {
+	position: absolute;
+	top: 24px;
+	left: 5%;
+	font-size: 16px;
+	width: 20%;
+	display: none;
+	color: yellow;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.picture {
+	position: absolute;
+	top: 10px;
+	left: 5%;
+	content:url(http://cdn.artobserved.com/2013/09/Erika-Vogt-Stranger-Debris-Roll-Roll-Roll-2013-Courtesy-New-Museum-New-York-Photo-Benoit-Pailley-51.jpg);
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	opacity: 0.5;
+	z-index: 0;
+	animation-name: Ntext;
+	animation-duration: 1s;
+}
+
+#Etext {
+	position: absolute;
+	top: 40px;
+	left: 70%;
+	font-size: 16px;
+	width: 20%;
+	text-align: right;
+	color: red;
+}
+
+.pictureE {
+	position: absolute;
+	top: 20px;
+	left: 20%;
+	content: url(http://img.new.livestream.com/accounts/000000000037057b/3432ff5f-ed9e-4e67-9647-5b923868fe9b.jpg);
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	opacity: 0.5;
+	z-index: 0;
+	animation-name: Etext;
+	animation-duration: 1s;
+}
+
+#Wtext {
+	position: absolute;
+	top: 130px;
+	left: 65%;
+	font-size: 16px;
+	width: 20%;
+	text-align: right;
+	color: blue;
+	z-index: 1;
+}
+
+.pictureW {
+	position: absolute;
+	top: 200px;
+	left: 25%;
+	content: url(http://images.e-flux-systems.com/90899_7dd355ded1dca130188138f5fa847895.jpg,1440);
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	opacity: 0.5;
+	animation-name: Wtext;
+	animation-duration: 1s;
+}
+
+#MUtext {
+	position: absolute;
+	top: 200px;
+	left: 75%;
+	font-size: 16px;
+	width: 20%;
+	text-align: left;
+	color: orange;
+}
+
+.pictureMU {
+	position: absolute;
+	bottom: 3px;
+	right: 300%;
+	content: url(http://1vze7o2h8a2b2tyahl3i0t68.wpengine.netdna-cdn.com/wp-content/uploads/2016/07/07-16_PaaE_GOD_4.jpg);
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	opacity: 0.5;
+	animation-name: MUtext;
+	animation-duration: 1s;
+}
+
+#SEtext {
+	position: absolute;
+	top: 300px;
+	left: 10%;
+	font-size: 16px;
+	width: 20%;
+	color: hotpink;
+}
+
+.pictureSE {
+	position: absolute;
+	bottom: 5px;
+	left: 200%;
+	content: url(http://images.e-flux-systems.com/90900_cf0eca88526f43f2324334785dd101cb.jpg,1440);
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	opacity: 0.5;
+	animation-name: SEtext;
+	animation-duration: 1s;
+}
+
+#UMtext {
+	position: absolute;
+	top: 420px;
+	left: 12%;
+	font-size: 16px;
+	width: 20%;
+	color: green;
+}
+
+.pictureUM {
+	position: absolute;
+	top: -450px;
+	left: 30%;
+	content: url(http://imgs.fbsp.org.br/files/052_.jpg);
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	opacity: 0.7;
+	z-index: 1;
+	animation-name: UMtext;
+	animation-duration: 1s;
+}
+
+
+@keyframes Ntext {
+	0% {
+		top: 400px;
+	}
+
+	100% {
+		top: 10px;
+	}
+}
+
+@keyframes Etext {
+	0% {
+		top: 400px;
+	}
+
+	100% {
+		top: 20px;
+	}
+}
+
+@keyframes Wtext {
+	0% {
+		left: 25px;
+	}
+
+	100% {
+		left: -20px;
+	}
+}
+
+@keyframes MUtext {
+	0% {
+		right: 0%;
+	}
+
+	100% {
+		right: 300%;
+	}
+}
+
+@keyframes SEtext {
+	0% {
+		left: 50px;
+	}
+
+	100% {
+		left: 200%;
+	}
+}
+
+@keyframes UMtext {
+	0% {
+		left: 1px;
+	}
+
+	100% {
+		right: 700px;
+	}
+}
+
+/*
+.imageBox {
+	position: relative;
+}
+
+.imageBox .N {
+	position: relative;
+	left: 50%;
+	top: 80px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.imageBox .N1 {
+	position: relative;
+	display: none;	
+}
+
+.imageBox:hover .N1 {
+	position: relative;
+	display: block;
+	left: 50%;
+	bottom: 101px;
+	margin: 0px;
+	padding: 0px;
+}
+
+--
+
+.imageBoxOne {
+	position: relative;
+}
+
+.imageBoxOne .E {
+	position: relative;
+	left: 62%;
+	bottom: 100px;
+	padding: 0px;
+}
+
+.imageBoxOne .E1 {
+	position: relative;
+	display: none;
+}
+
+.imageBoxOne:hover .E1 {
+	position: relative;
+	display: block;
+	left: 62%;
+	bottom: 280px;
+	padding: 0px;
+}
+
+--
+
+.imageBoxTwo {
+	position: relative;
+}
+
+.imageBoxTwo .W {
+	position: relative;
+	left: 50%;
+	bottom: 150px;
+	padding: 0px;
+}
+
+.imageBoxTwo .W1 {
+	position: relative;
+	display: none;
+}
+
+.imageBoxTwo:hover .W1 {
+	position: relative;
+	display: block;
+	left: 50%;
+	bottom: 350px;
+	padding: 0px;
+}
+
+--
+
+.imageBoxThree {
+	position: relative;
+}
+
+.imageBoxThree .M {
+	position: relative;
+	left: 65%;
+	bottom: 355px;
+}
+
+.imageBoxThree .M1 {
+	position: relative;
+	display: none;
+}
+
+.imageBoxThree:hover .M1 {
+	position: relative;
+	display: block;
+	left: 65%;
+	bottom: 555px;
+}
+
+--
+
+.imageBoxFour {
+	position: relative;
+}
+
+.imageBoxFour .U {
+	position: relative;
+	left: 12px;
+	bottom: 250px;
+}
+
+.imageBoxFour .U1 {
+	position: relative;
+	display: none;
+}
+
+.imageBoxFour:hover .U1 {
+	position: relative;
+	display: block;
+	left: 12px;
+	bottom: 405px;
+}
+
+
+/* .imageBoxOne {
+	position: relative;
+	right: 80%;
+	top: 90%;
+}
+
+.imageBoxOne .E {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 12%;
+}
+
+.imageBoxOne .E1 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxOne:hover .E1 {
+	position: fixed;
+	display: block;
+	height: 120px;
+	width: 200px;
+	margin: 0;
+	left: 12%;
+}
+
+--
+
+.imageBoxTwo {
+	position: relative;
+	right: 80%;
+}
+
+.imageBoxTwo .W {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 25%;
+	bottom: 84%;
+}
+
+.imageBoxTwo .W1 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxTwo:hover .W1 {
+	position: fixed;
+	display: block;
+	margin: 0;
+	left: 25%;
+	bottom: 80%;
+}
+
+--
+
+.imageBoxThree {
+	position: relative;
+	right: 80%;
+}
+
+.imageBoxThree .M {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 1.5%;
+	top: 35%;
+}
+
+.imageBoxThree .M1 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxThree:hover .M1 {
+	position: fixed;
+	display: block;
+	margin: 0;
+	left: 1.5%;
+	top: 35%;
+}
+
+--
+
+.imageBoxFour {
+	position: relative;
+	right: 80%;
+}
+
+.imageBoxFour .U {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 20%;
+	top: 38.5%;
+}
+
+.imageBoxFour .U1 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxFour:hover .U1 {
+	position: fixed;
+	display: block;
+	margin: 0;
+	left: 20%;
+	top: 38.5%;
+}
+
+--
+
+.imageBoxFive {
+	position: relative;
+	right: 80%;
+}
+
+.imageBoxFive .S {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 35%;
+	top: 38%;
+}
+
+.imageBoxFive .S1 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxFive:hover .S1 {
+	position: fixed;
+	display: block;
+	margin: 0;
+	left: 35%;
+	top: 38%;
+}
+
+--
+
+.imageBoxSix {
+	position: relative;
+	right: 80%;
+}
+
+.imageBoxSix .E2 {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 50%;
+	top: 39%;
+}
+
+.imageBoxSix .E3 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxSix:hover .E3 {
+	position: fixed;
+	display: block;
+	margin: 0;
+	left: 50.5%;
+	top: 39%;
+}
+
+--
+
+.imageBoxSeven {
+	position: relative;
+	right: 80%;
+}
+
+.imageBoxSeven .U2 {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 65%;
+	top: 39%;
+}
+
+.imageBoxSeven .U3 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxSeven:hover .U3 {
+	position: fixed;
+	display: block;
+	margin: 0;
+	left: 65%;
+	top: 39%;
+}
+
+--
+
+.imageBoxEight {
+	position: relative;
+	right: 80%;
+}
+
+.imageBoxEight .M2 {
+	position: fixed;
+	height: 120px;
+	width: 200px;
+	left: 81%;
+	top: 35%;
+}
+
+.imageBoxEight .M3 {
+	position: fixed;
+	display: none;
+}
+
+.imageBoxEight:hover .M3 {
+	position: fixed;
+	display: block;
+	margin: 0;
+	left: 80.6%;
+	top: 36.5%;
+}
+
+--
+
+
+
