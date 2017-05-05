@@ -36,5 +36,6 @@ a:visited {
 
 a:hover {
 	font-size: 25px;
-	font-family: century;
+	color: pink;
+	font-style: italic;
 }
