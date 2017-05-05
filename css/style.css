@@ -1,0 +1,40 @@
+html, body {
+	font-family: helvetica;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+h1 {
+	color: solid-black;
+	font-size: 40px;
+	margin: 0;
+	margin-bottom: 1%;
+}
+
+h2 {
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+	color: hotpink;
+}
+
+p {
+	font-size: 20px;
+}
+
+a {
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	font-size: 25px;
+	font-family: century;
+}
