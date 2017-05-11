@@ -1,0 +1,295 @@
+body {
+    background-color: none;
+    margin: 4.5%;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: black;
+}
+
+#menu {
+    position: relative;
+    margin-bottom: 3%;
+    font-family: 'Inconsolata', monospace;
+    font-style: bold;
+}
+
+#key {
+    position: fixed;
+    top: 1%;
+    margin-bottom: 3%;
+    font-family: 'Inconsolata', monospace;
+    font-style: bold;
+    font-size: 14px;
+    border: solid black 1px;
+    text-align: center;
+    z-index: 1;
+}
+
+#tube-lips {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: mediumseagreen;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#pencil-lips {
+	float: left;
+	margin: 1%;
+	width: 0;
+    height: 0;
+    border-bottom: 70px solid mediumseagreen;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+
+
+#tub-eyelid {
+	float: left;
+	margin: 1%;
+	width: 80px;
+    height: 70px;
+    background: darkorange;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
+
+#palette-eyelid {
+	float: left;
+	margin: 1%;
+	height: 0;
+    width: 50px;
+    border-bottom: 60px solid darkorange;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+
+#pan-eyelid {
+	float: left;
+	margin: 1%;
+	width: 125px;
+    height: 70px;
+    background: darkorange;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+
+#tube-eyelid {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: darkorange;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+#pencil-eyes {
+	float: left;
+	margin: 1%;
+	width: 0;
+    height: 0;
+    border-bottom: 70px solid thistle;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+
+
+#tube-lashes {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: deeppink;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+#tube-undereye {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: teal;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#palette-undereye {
+	float: left;
+	margin: 1%;
+	height: 0;
+    width: 50px;
+    border-bottom: 60px solid teal;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+
+
+#tube-cheek {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: sienna;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#palette-cheek {
+	float: left;
+	margin: 1%;
+	height: 0;
+    width: 50px;
+    border-bottom: 60px solid sienna;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+
+#box-cheek {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: sienna;
+}
+
+#pan-cheek {
+	float: left;
+	margin: 1%;
+	width: 125px;
+    height: 70px;
+    background: sienna;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+
+#tub-cheek {
+	float: left;
+	margin: 1%;
+	width: 80px;
+    height: 70px;
+    background: sienna;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
+
+
+#tube-nose {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: pink;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#palette-nose {
+	float: left;
+	margin: 1%;
+	height: 0;
+    width: 50px;
+    border-bottom: 60px solid pink;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+
+#box-nose {
+	float: left;
+	margin: 1%;
+	width: 70px;
+    height: 70px;
+    background: pink;
+}
+
+#pan-nose {
+	float: left;
+	margin: 1%;
+	width: 125px;
+    height: 70px;
+    background: pink;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+
+#tub-nose {
+	float: left;
+	margin: 1%;
+	width: 80px;
+    height: 70px;
+    background: pink;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
+
+
+#bottle-face {
+	float: left;
+	margin-left: 1%;
+	width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-left: 70px solid black;
+    border-bottom: 45px solid transparent;
+}
+
+#tub-face {
+	float: left;
+	margin: 1%;
+	width: 80px;
+    height: 70px;
+    background: black;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
